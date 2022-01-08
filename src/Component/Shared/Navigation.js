@@ -15,11 +15,9 @@ const Navigation = () => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-      <div className='home text-white'> 
-      <Nav.Link href="home"> <Badge className='home-button'  pill bg="dark">
-         Home
-      </Badge ></Nav.Link >
-      </div>
+      {/* <div className='home text-white'> 
+      <Nav.Link href="home"> </Nav.Link >
+      </div> */}
 
         <div className='search'>
         <Form className="d-flex">
@@ -35,10 +33,11 @@ const Navigation = () => {
         </div>
         
         
-       
+        <button>Join Now</button>
       </Nav>
-      <Nav.Link href="#action2">Login </Nav.Link>
-      <Nav.Link href="#action2">Logout</Nav.Link>
+    
+      {/* {/* <Nav.Link href="#action2">Login </Nav.Link> */}
+       */}
     </Navbar.Collapse>
   </Container>
 </Navbar>

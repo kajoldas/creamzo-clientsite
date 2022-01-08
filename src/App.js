@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import AboutUs from './Component/AboutUs/AboutUs';
 import Notfound from './Component/Notfound/Notfound';
+import Terms from './Component/Terms/Terms';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/aboutus">
             <AboutUs />
+          </Route>
+          <Route path="/terms">
+            <Terms />
           </Route>
           <Route exact  path="*">
             <Notfound />

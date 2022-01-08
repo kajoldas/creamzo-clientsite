@@ -19,12 +19,14 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #26262b;
-    padding: 75px 0;
+    background-color: #4b4bc0;
+    padding: 5px 0;
     /* flex-shrink: 0; */
     /* position: fixed; */
     /* padding-bottom: 0; */
     /* margin-bottom: 0; */
+   
+   text-align: center;
 }
 .footer-col{
     width: 10%;

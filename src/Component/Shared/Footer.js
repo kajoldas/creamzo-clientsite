@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import  './Footer.css'
 
 const Footer = () => {
@@ -7,41 +8,29 @@ const Footer = () => {
            <footer className="footer">
                <div className="container">
                    <div className="row">
+                       
                         <div className="footer-col">
-                            <a href="https://www.google.com">Terms of Service</a> 
-                           
+                            <a href="https://www.google.com">Creamzo</a> 
+                            
                         </div>
+
                         <div className="footer-col">
-                            <a href="https://www.google.com">Privacy Policy</a> 
+                            
+                            <a href="https://www.google.com">Contact Us</a> 
                             
                         </div>
                         <div className="footer-col">
-                            <a href="https://www.google.com">Help</a> 
+                            
+                            <Nav.Link href="aboutus">About Us</Nav.Link>
                             
                         </div>
                         <div className="footer-col">
-                            <a href="https://www.google.com">iPhone app</a> 
+                            <a href="https://www.google.com">Terms</a> 
+                            <Nav.Link href="terms">Terms</Nav.Link>
                             
                         </div>
                         <div className="footer-col">
-                            <a href="https://www.google.com">Android app</a> 
-                            
-                        </div>
-                        <div className="footer-col">
-                            <a href="https://www.google.com">Users</a> 
-                            
-                        </div>
-                        <div className="footer-col">
-                            <a href="https://www.google.com">Collections</a> 
-                            
-                        </div>
-                        <div className="footer-col">
-                            <a href="https://www.google.com">
-                              Today  </a> 
-                            
-                        </div>
-                        <div className="footer-col">
-                            <a href="https://www.google.com">Explore</a> 
+                            <a href="https://www.google.com">Join</a> 
                             
                         </div>
                       
