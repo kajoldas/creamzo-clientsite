@@ -25,12 +25,16 @@ const Footer = () => {
                             
                         </div>
                         <div className="footer-col">
-                            <a href="https://www.google.com">Terms</a> 
+                           
                             <Nav.Link href="terms">Terms</Nav.Link>
                             
                         </div>
                         <div className="footer-col">
                             <a href="https://www.google.com">Join</a> 
+                            
+                        </div>
+                        <div className="footer-col">
+                        <Nav.Link href="blog">Blog</Nav.Link>
                             
                         </div>
                       

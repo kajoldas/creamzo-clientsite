@@ -1,0 +1,26 @@
+.img1{
+    width: 750px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.bg-blog{
+    background-color: gainsboro;
+}
+.blog-h4-s{
+    text-align: start;
+
+}
+.blog-h4{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.blog-h4-p{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}

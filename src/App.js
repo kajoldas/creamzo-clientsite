@@ -13,6 +13,7 @@ import {
 import AboutUs from './Component/AboutUs/AboutUs';
 import Notfound from './Component/Notfound/Notfound';
 import Terms from './Component/Terms/Terms';
+import Blog from './Component/Blog/Blog';
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/terms">
             <Terms />
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route exact  path="*">
             <Notfound />
